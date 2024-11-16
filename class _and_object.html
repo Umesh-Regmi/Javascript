@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class person{
+            constructor(name, age, grade){
+                this.name = name
+                this.age = age
+                this.grade = grade
+            }
+            getname(){
+                return this.name
+            }
+            setname(){
+                 this.name  = name
+            }
+            getage(){
+                return this.age
+            }
+            setage(){
+                this.age = age
+            }
+            getgrade(){
+                return this.grade
+            }
+            setgrade(){
+                this.grade
+            }
+        }
+        p1 = new person("ram", 25, 12)
+        document.write("Name: " +p1.getname())
+        document.write("<br>Age: " +p1.getage()) 
+        document.write("<br>Grade: " +p1.getgrade())
+     </script>
+</body>
+</html>
